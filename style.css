@@ -1,0 +1,29 @@
+body {
+    background: #050D14;
+}
+section {
+    height: 100vh;
+    padding: 10vh 0;
+}
+ul.tab-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 49px;
+}
+ul.tab-container li.tab {
+    color: #C8102E;
+    cursor: pointer;
+}
+ul.tab-container li.tab.tab-active {
+    background: #C8102E;
+    color: #050D14;
+}
+.swiper .swiper-slide {
+    width: 1184px;
+}
+.swiper img {
+    width: 100%;
+}
